@@ -1,0 +1,101 @@
+/* Main Style */
+
+body {
+	font-family: Helvetica, Arial, sans-serif; 
+	background-color: #efefef; 
+	width: 800px; 
+	margin: 50px auto; }
+	
+	
+	
+/* Headings */
+	
+h1 {
+	color: #006385;
+	font-family: allerregular;
+	text-shadow: 0px 2px 8px #4794AD;
+	text-align: center; }	
+
+h2, h3 {
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center; 
+	opacity: .8;
+	text-decoration: underline; }
+	
+	
+	
+/* HTML Styles */
+	
+strong {
+	color: #0788B3;
+	font-size: 1.2em;
+	font-variant: small-caps; }
+	
+em {
+	font-style: oblique; }
+	
+figure {
+	display: inline-block; }
+	
+blockquote {
+	margin: 10px auto; }
+	
+	
+	
+/* Div Styles */
+	
+div {
+	background-color: #fff;
+	border: 5px solid #fff;
+	border-radius: 10px;
+	margin: 20px;
+	padding: 5px;
+	line-height: 1.2em;
+	box-shadow: 5px 5px 5px #d3d3d3;
+	opacity: .8;  
+	max-height: 300px;
+	overflow: scroll; }
+	
+	
+	
+/* ID Styles */
+	
+#list {
+	width: 300px;
+	margin: 0px auto; }
+	
+#nav, #gallery, #footer {
+	text-align: center; }
+	
+#nav li {
+	display: inline;
+	padding: 10px;
+	font-size: 20px; }
+	
+#history {
+	text-align: justify; }
+	
+	
+	
+/* Class & Pseudo Class Styles */
+	
+ol.roman {
+	list-style-type: lower-roman; }
+	
+a:link {
+	color: #B33207;
+	text-decoration: none;
+	font-weight: bold;
+	font-variant: small-caps; }
+	
+a:visited {
+	color: #7A2104; }
+	
+a:hover {
+	color: #B33207;
+	text-decoration: underline; }
+	
+a:active {
+	color: #7A2104; }
+	
