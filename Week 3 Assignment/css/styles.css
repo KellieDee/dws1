@@ -1,0 +1,147 @@
+/* Main Styles */
+
+body {
+	font-family: Calibri, Arial, sans-serif; 
+	background-color: #efefef; 
+	width: 80%; 
+	margin: 10% auto;
+	}
+	
+h1 {
+	font-family: allerregular, Calibri, Arial, sans-serif;
+	text-shadow: 0px 5px 8px #adadad;
+	text-align: center;
+	}	
+
+h2 {
+	font-size: 1.75em;
+	font-weight: bold;
+	text-align: center; 
+	opacity: .8;
+	}
+	
+h3 {
+	color: #B33207;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	margin: .5%;
+	}
+	
+a:link {
+	color: #B33207;
+	text-decoration: none;
+	font-weight: bold;
+	font-variant: small-caps;
+	}
+	
+a:visited {
+	color: #7A2104;
+	}
+	
+a:hover {
+	color: #B33207;
+	text-decoration: underline;
+	}
+	
+a:active {
+	color: #7A2104;
+	}
+	
+	
+	
+/* Markup Styles */
+	
+strong {
+	color: #0788B3;
+	font-size: 1.2em;
+	font-variant: small-caps;
+	}
+	
+em {
+	font-style: oblique;
+	}
+	
+blockquote {
+	margin: 1%;
+	text-align: justify;
+	}
+	
+img figure {
+	opacity: 1;
+	}
+	
+ol#list {
+	list-style-type: none;
+	}
+	
+ol.roman {
+	list-style-type: lower-roman;
+	}
+	
+p.condense {
+	margin: .5%;
+	}
+	
+	
+	
+/* Div Styles */
+	
+div {
+	background-color: #fff;
+	border: 5px solid #fff;
+	border-radius: 10px;
+	margin: 1%;
+	padding: 1%;
+	line-height: 1.2em;
+	box-shadow: 5px 5px 5px #d3d3d3;
+	}
+	
+#history {
+	background: rgb(254,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(254,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(254,255,255,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(254,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(254,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(254,255,255,1) 0%,rgba(229,229,229,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(254,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C */
+	}
+	
+#content {
+	overflow: auto;
+	background: #efefef url("../images/dark-tile.gif") repeat top left;
+	}
+
+#timeline, #gallery {
+	text-align: center;
+	float: left;
+	min-width: 45%;
+	max-width: 95%;
+	overflow: auto;
+	box-shadow: none;
+	opacity: 0.9;
+	}
+	
+#list {
+	width: 50%;
+	margin: 1% auto;
+	text-align: left;
+	}
+	
+#navigation, #footer, #content {
+	clear: both;
+	text-align: center;
+	}
+	
+#navigation, #footer {
+	min-height: 50px;
+	max-height: 50px;
+	background: #fff url("../images/controller.png") no-repeat center right;
+	}
+	
+#navigation li {
+	display: inline;
+	padding: 1%;
+	font-size: 1.375em;
+	}
+	
